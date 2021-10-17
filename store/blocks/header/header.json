@@ -70,12 +70,13 @@
   "header-layout.mobile": {
     "children": [
       "header-row#1-mobile",
-      "header-row#2-mobile"
+      "header-row#2-mobile",
+      "sticky-layout#1-mobile"
     ]
   },
+   
   "header-row#1-mobile": {
     "children": [
-      "drawer",
       "header-spacer",
       "logo#mobile",
       "header-spacer",
@@ -86,13 +87,7 @@
       "sticky": true,
       "blockClass": "main-header-mobile"
     }
-  },
-  "drawer": {
-    "children": [
-      "vtex.menu@2.x:menu#category-menu-mobile"
-    ]
-  },
-
+  },  
   "logo#mobile": {
     "props": {
       "title": "Logo",
@@ -101,8 +96,28 @@
       "width": "120"
     }
   },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "flex-layout.col#spacer"
+      ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
   "header-row#2-mobile": {
     "children": [
+      "drawer",
       "search-bar"
     ],
     "props": {
