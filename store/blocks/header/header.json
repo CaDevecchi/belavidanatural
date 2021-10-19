@@ -154,7 +154,7 @@
     "children": ["flex-layout.col#minicart-footer"]
   },
   "flex-layout.col#minicart-footer": {
-    "children": ["minicart-bar","minicart-summary", "minicart-checkout-button"]
+    "children": ["minicart-summary", "minicart-checkout-button"]
   },
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
@@ -203,7 +203,7 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Your cart is empty."
+      "text": "Seu carrinho está vazio."
     }
   }
 }
