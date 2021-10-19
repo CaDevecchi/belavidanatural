@@ -7,10 +7,6 @@
     margin:0;
     padding:0;
 }
-.menuContainer--mainMenu .styledLink--menu-oferta{
-    color:#fff;
-    background:#00bc93;
-}
 .menuContainer--mainMenu .menuItem:hover{
     background:#00bc93;
 }
@@ -53,19 +49,13 @@
 }
 .submenu .styledLinkContainer,
 .submenu .menuContainerNav,
-.menuContainer--mainMenu .submenu .menuItem .styledLinkContainer,
-.menuContainerNav--category-menu-mobile,
-.menuContainerNav--category-menu-mobile .menuContainerNav{
+.menuContainer--mainMenu .submenu .menuItem .styledLinkContainer{
     width:100%;
 }
 .menuContainer--menuFooter .styledLinkContainer{
     margin:0;
 }
-.menuContainerNav--category-menu-mobile .menuItem{
-    padding:5px 0;
-    border-bottom:1px solid #ccc;
-}
- .menuContainer--mainMenu .submenuContainer .submenuWrapper{
+.menuContainer--mainMenu .submenuContainer .submenuWrapper{
     padding:0;
     border:0;
     margin:0;

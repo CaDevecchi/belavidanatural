@@ -57,7 +57,8 @@
     "vtex.product-price": "1.x",
     "vtex.search": "1.x",
     "vtex.sandbox": "0.x",
-    "vtex.mega-menu": "0.x"
+    "vtex.mega-menu": "0.x",
+    "vtex.responsive-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

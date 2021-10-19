@@ -86,11 +86,13 @@
       "flex-layout.row#did-you-mean",
       "flex-layout.row#suggestion",
       "flex-layout.row#banner-one",
+      "breadcrumb.search",
       "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
       "preventRouteChange": true,
+      "showOnMobile": true,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
