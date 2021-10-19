@@ -60,5 +60,8 @@
     "vtex.mega-menu": "0.x",
     "vtex.responsive-layout": "0.x"
   },
+  "peerDependencies": {
+    "vtexeurope.minicart-freeshipping-bar": "1.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
