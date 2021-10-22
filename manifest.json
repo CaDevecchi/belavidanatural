@@ -65,7 +65,8 @@
     "vtex.mega-menu": "0.x",
     "vtex.search": "1.x",
     "vtex.sandbox": "0.x",
-    "vtex.reviews-and-ratings": "0.x"
+    "vtex.reviews-and-ratings": "0.x",
+    "vtex.product-highlights" : "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

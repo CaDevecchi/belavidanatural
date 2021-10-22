@@ -70,8 +70,7 @@
   "header-layout.mobile": {
     "children": [
       "header-row#1-mobile",
-      "header-row#2-mobile",
-      "sticky-layout#1-mobile"
+      "header-row#2-mobile"
     ]
   },
    

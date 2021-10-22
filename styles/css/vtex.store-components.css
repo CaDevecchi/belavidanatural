@@ -19,7 +19,7 @@
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  padding:10px;
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
   height:44px !important;
@@ -102,6 +102,7 @@
 .specificationsTableContainer{
   padding: 0;
 }
+
 .imageElement--productImageBanner{
   display: block;
   margin: 0 auto;
@@ -133,9 +134,6 @@
 } */
 
 @media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
   .searchBarContainer{
     margin:15px;
     padding:0;
