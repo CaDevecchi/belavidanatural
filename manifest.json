@@ -1,7 +1,7 @@
 {
   "vendor": "belavidanatural",
   "name": "belavidanatural-theme",
-  "version": "0.0.79",
+  "version": "0.0.80",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -67,6 +67,5 @@
     "vtex.sandbox": "0.x",
     "vtex.reviews-and-ratings": "0.x"
   },
- 
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
