@@ -13,7 +13,6 @@
       "flex-layout.row#footer-3-desktop"
     ]
   },
-
   "newsletter": {
     "props": {
       "label": "ASSINE NOSSA NEWSLETTER",
@@ -135,6 +134,7 @@
       "blockClass": "footer-security"
     }
   },
+    
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -294,3 +294,4 @@
     }
   }
 }
+  

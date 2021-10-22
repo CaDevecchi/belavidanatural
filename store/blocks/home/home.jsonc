@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      "flex-layout.row#deals",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
       "rich-text#shelf-title1",
       "flex-layout.row#shelf1",
       "rich-text#shelf-title3",
@@ -45,14 +47,14 @@
       }
     }
   },
-
+  
   "shelf#home1": {
     "blocks": ["product-summary.shelf"]
   },
   "shelf#home2": {
     "blocks": ["product-summary.shelf"]
   },
-
+  
   "rich-text#shelf-title1": {
     "props": {
       "text": "## Novidades",
@@ -63,7 +65,7 @@
   "flex-layout.row#shelf1": {
     "children": ["list-context.product-list#shelf-home1"]
   },
-  "list-context.product-list#shelf-home1": {
+ "list-context.product-list#shelf-home1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products1"],
     "props": {
@@ -97,8 +99,8 @@
     }
   },
 
-  "flex-layout.row#shelf2": {
-    "children": ["list-context.product-list#shelf-home2"]
+   "flex-layout.row#shelf2": {
+     "children": ["list-context.product-list#shelf-home2"]
   },
   "list-context.product-list#shelf-home2": {
     "blocks": ["product-summary.shelf"],
@@ -119,23 +121,6 @@
       "blockClass": "shelf"
     }
   },
-
-  // "shelf#home3": {
-  //   "blocks": ["product-summary.shelf"],
-  //   "props": {
-  //     "orderBy": "OrderByTopSaleDESC",
-  //     "paginationDotsVisibility": "desktopOnly",
-  //     "skusFilter": "FIRST_AVAILABLE",
-  //     "productList": {
-  //       "maxItems": 10,
-  //       "itemsPerPage": 5,
-  //       "minItemsPerPage": 1,
-  //       "scroll": "BY_PAGE",
-  //       "arrows": true,
-  //       "titleText": "OFERTAS"
-  //     }
-  //   }
-  // },
 
   "product-summary-buy-button": {
     "props": {
@@ -206,6 +191,34 @@
       "height": 385,
       "showArrows": false,
       "showDots": false
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
     }
   }
 }

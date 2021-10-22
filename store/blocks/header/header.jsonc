@@ -134,7 +134,8 @@
 
   "minicart.v2": {
     "props": {
-      "MinicartIcon": "icon-cart#minicart-icon"
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "customPixelEventId": "add-to-cart-button"
     },
     "children": ["minicart-base-content"]
   },
