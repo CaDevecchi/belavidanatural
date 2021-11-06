@@ -20,3 +20,7 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.galleryTittle--layout {
+  font-size: 100px;
+}

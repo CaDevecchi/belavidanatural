@@ -11,6 +11,14 @@
       "add-to-cart-button"
     ]
   },
+  "product-summary-name": {
+    "props": {
+      "showProductReference": false,
+      "showBrandName": true,
+      "showSku": false,
+      "tag": "h4"
+    }
+  },
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"

@@ -7,6 +7,10 @@
     margin:0;
     padding:0;
 }
+/*.menuContainer--mainMenu .styledLink--menu-oferta{
+    color:#fff;
+    background:#00bc93;
+}*/
 .menuContainer--mainMenu .menuItem:hover{
     background:#00bc93;
 }
