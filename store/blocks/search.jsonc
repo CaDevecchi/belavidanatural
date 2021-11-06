@@ -2,8 +2,8 @@
   "store.search": {
     "blocks": [
       "carousel#search-banner",
-      "search-result-layout",
-      "rich-text#search-text"    ],
+      "search-result-layout"
+    ],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -109,7 +109,8 @@
     }
   },
   "flex-layout.row#searchtitle": {
-    "children": ["search-title.v2"]
+    "children": ["search-title.v2"],
+    "props": {"blockclass": "galleryTitle--layout" }
   },
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
@@ -279,7 +280,7 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "(min-width:1300px)": 4,
-            "desktop": 3,
+            "desktop": 4,
             "tablet": 3,
             "phone": 2
           }

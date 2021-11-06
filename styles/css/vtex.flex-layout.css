@@ -45,7 +45,11 @@
   padding: 14px 0px;
 }
 
-.flexRow--deals .stretchChildrenWidth {
+.flexRow--deals {
+ align-items: center;
+}
+
+.stretchChildrenWidth {
   align-items: center;
 }
 
