@@ -16,7 +16,7 @@
     }
   },
 
-  "menu-item#desktop-1": {
+"menu-item#desktop-1": {
     "props": {
       "id": "menu-item-desktop-1",
       "type": "custom",
