@@ -5,3 +5,7 @@
 .specificationName {
   font-weight: bold;
 }
+
+.specificationValue {
+  padding-right: 1em;
+}
