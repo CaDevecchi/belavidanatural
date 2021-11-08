@@ -92,11 +92,13 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#banner-one",
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
       "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": false,
+      "preventRouteChange": true,
       "showOnMobile": true,
       "defaultGalleryLayout": "grid"
     }
@@ -366,6 +368,12 @@
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
+  },
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
   },
   "flex-layout.row#banner-one": {
     "children": ["search-banner#one"]

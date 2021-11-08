@@ -41,6 +41,7 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
+      "product-summary-brand",
       "product-rating-inline",
       "product-summary-space",
       "product-list-price#summary",
@@ -97,5 +98,4 @@
   "store.not-found#search": {
     "blocks": ["rich-text#not-found"]
   }
-
 }

@@ -1,20 +1,10 @@
 {
     "sticky-layout#4-desktop": {
-      "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
+      "children": ["flex-layout.row#mega-menu"]
     },
-    "flex-layout.row#4-desktop": {
-      "children": [
-        "flex-layout.col#trigger-mega-menu"]
-    },
-  
+ 
     "flex-layout.row#mega-menu": {
       "children": ["mega-menu"]
-    },
-    "flex-layout.col#trigger-mega-menu": {
-      "props": {
-        "verticalAlign": "middle"
-      },
-      "children": ["mega-menu-trigger-btn"]
     },
     "drawer": {
           "children": ["mega-menu"],
@@ -22,7 +12,8 @@
       },
         "mega-menu": {
           "props": {
-            "defaultDepartmentActive": "Tecnología"
+            "defaultDepartmentActive": "Tecnología",
+            "title": "Departamentos"
       }
         },
         "drawer-header#my-drawer": {

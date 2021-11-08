@@ -9,3 +9,17 @@
         width: 93vw;
     }
 }
+.suggestionsListPrefix {
+    font-size: medium;
+}
+
+.didYouMeanPrefix {
+    font-size: medium;
+}
+.suggestionsListLink {
+    font-size: 1em;
+    color: gray;
+    text-decoration: underline;
+}
+
+
