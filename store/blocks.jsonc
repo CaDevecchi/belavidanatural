@@ -40,6 +40,7 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "add-to-list-btn",
       "product-summary-name",
       "product-summary-brand",
       "product-rating-inline",

@@ -28,5 +28,8 @@
   },
   "store.custom#institucional": {
     "path": "/institucional"
+  },
+  "store.wishlist": {
+    "path": "/account/#/wishlist"
   }
 }

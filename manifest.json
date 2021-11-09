@@ -70,5 +70,8 @@
     "vtex.product-highlights": "2.x",
     "vtex.seller-selector": "0.x"
   },
+  "peerDependencies": {
+    "vtex.wish-list": "1.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
