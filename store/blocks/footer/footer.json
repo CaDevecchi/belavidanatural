@@ -105,7 +105,7 @@
   "flex-layout.col#col-footer-4":{
     "children":[
       "rich-text#footer-7",
-      "rich-text#security-1",
+      "google-customer-review-badge",
       "rich-text#security-2",
       "rich-text#security-3"
     ]

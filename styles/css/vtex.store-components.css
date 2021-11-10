@@ -1,3 +1,9 @@
+.discountInsideContainer {
+  font-weight:bold;
+  background: #3F3F40;
+  border-radius: 20px;
+}
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;

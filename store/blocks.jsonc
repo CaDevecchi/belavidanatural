@@ -63,7 +63,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image",
-      "modal-trigger#quickview"
+      "vtex.product-highlights@2.x:product-highlights"
     ]
   },
   "product-summary-image": {
@@ -71,7 +71,14 @@
       "height": 220
     }
   },
-
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
   "product-summary-specification-badges": {
     "props": {
       "specificationGroupName": "Group",

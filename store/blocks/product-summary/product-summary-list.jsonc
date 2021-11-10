@@ -130,8 +130,7 @@
   },
   "stack-layout#summaryListDesktop": {
     "children": [
-      "product-summary-image#summaryListDesktop",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "product-summary-image#summaryListDesktop"
     ]
   },
   "product-summary-image#summaryListDesktop": {
@@ -156,8 +155,7 @@
   },
   "stack-layout#summaryListMobile": {
     "children": [
-      "product-summary-image#summaryListMobile",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "product-summary-image#summaryListMobile"
     ]
   },
   "product-summary-image#summaryListMobile": {

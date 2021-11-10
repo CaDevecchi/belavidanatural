@@ -5,7 +5,7 @@
     font-size:0;
 }
 .label::after{
-    content: "Meus Pedidos";
+    content: "Meu Cadastro";
     display: inline-block;
     vertical-align:middle;
     font-size:.8rem;

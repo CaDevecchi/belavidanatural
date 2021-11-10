@@ -47,7 +47,8 @@
     },
     "children": [
       "product-list-price",
-      "product-price-savings"
+      "product-price-savings",
+      "vtex.product-highlights@2.x:product-highlights"
     ]
   }
 }

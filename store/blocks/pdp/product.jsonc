@@ -137,6 +137,7 @@
       "add-to-list-btn",
       "flex-layout.row#product-name",
       "product-rating-summary",
+      "product-seller-name",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
@@ -147,6 +148,7 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
+      "availability-notify",
       "availability-subscriber",
       "shipping-simulator",
       "share#default"

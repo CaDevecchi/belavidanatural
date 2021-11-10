@@ -46,7 +46,7 @@
 .container--notification-bar{
   display:block;
   text-align:center;
-  background:#00bc93;
+  background:#3F3F40;
   width:175px;
   font-size:.8rem;
   margin:0 10px;
@@ -56,6 +56,11 @@
   padding:10px;
   margin:0;
 }
+.link--notification-bar{
+  color: #fff;
+  line-height: 1.5;
+}
+
 .container--link {
   justify-content: center;
 }
